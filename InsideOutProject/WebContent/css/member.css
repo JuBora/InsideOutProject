@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+form#loginForm {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+form#loginForm input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+form#loginForm input.button {
+    width: 70px;
+    height: 75px;
+    border-radius: 3px;
+}
+
+
+/* memberEnroll 회원가입부분 */
+form#enrollForm {
+	position: relative;
+	left: 30%;
+   }
+form#enrollForm input, select {
+    height: 28px;
+    border-radius: 4px;
+}
+

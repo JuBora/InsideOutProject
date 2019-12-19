@@ -1,0 +1,452 @@
+html *{
+margin: 0%;
+position: relative;
+}
+html header body footer{
+width: 1440px;
+}
+/* -----------怨좎젙�뿤�뜑------------ */
+.top_util{
+background-color:#35256b;
+position:fixed;
+width:100%;
+top:0;
+left:0;
+z-index: 2;
+}
+/* �쇊履쎌긽�떒 濡쒓퀬 �씠誘몄��깭洹몃줈 蹂�寃� �맆 �닔 �엳�쓬 PIXAR */
+.top_util span{
+display: inline-block;
+color: white;
+padding-top: 5.5px;
+padding-left: 10px;
+font-size: 10px;
+}
+/*�삤瑜몄そ �긽�떒*/
+ul.nav{
+float: right;
+list-style:none;
+margin: auto;
+width:28%;
+}
+ul.nav li{
+float:left;
+}
+ul.nav li a{    
+line-height:25px;
+color:rgb(255, 255, 255);
+padding:0 15px;
+text-decoration: none;
+font-size: 8px;
+}
+/* -----------怨좎젙�뿤�뜑 �걹!----------- */
+               
+/* -----------�몢踰덉㎏ �뿤�뜑 -----------*/
+.sec_haed{
+width: 100%;
+position: relative;
+width:100%;
+top:0;
+left:0;
+background-color:#261049;
+/* �몢踰덉㎏ �뿤�뜑 �븘�옒 �쐞 �넂�씠媛� */
+padding-top:5%;
+padding-bottom: 10%;
+}
+ul.nav-sec{
+text-align: center;
+/* li�꽭遺��쐞移섏“�젙 */
+padding-left: 80px;
+z-index: 1!important;
+}
+ul.nav-sec li{
+display: inline-block;
+}
+ul.nav-sec li a{
+color:rgb(255, 255, 255);
+/* li 媛꾧꺽媛� */
+padding:0px 16px;
+
+/* li�꽭遺��쐞移섏“�젙 */
+/* 諛묒쨪�젣嫄� */
+text-decoration: none;
+font-size: 14px;
+text-shadow: 1px 1px 3px  rgb(2, 2, 2); 
+/* line-height:15px; */
+}
+
+/* 濡쒓퀬 */
+.sec_haed span a{
+display: inline-block;
+/* 濡쒓퀬 �쐞移섍컪 */
+padding-left: 18.5%;
+transform:translateY(38%);
+font-size: 38px;
+color: white;
+text-decoration: none; 
+}
+/* -----------�몢踰덉㎏ �뿤�뜑 �걹!----------- */
+    
+
+/* body>section#content */
+section#content {
+	min-height: 900px;
+}    
+    
+/* 蹂몃Ц�떆�옉 */
+div.container{
+    min-height: 1000px;
+/* height: 2500px; */
+/* 留덉쭊 �뀒�뒪�듃�슜 而щ윭 */
+/* background: black; */
+}
+.visual { 
+position:relative; 
+width: 100%;
+/* 踰꾪듉�넂�씠�쐞移� */
+height: 60%;
+top:0%;
+}
+.visual img{
+/* position: absolute; top:0; left: 0; */
+/* �씠誘몄��겕湲� */
+width: 75%;
+height: 300px;
+box-shadow:0px 0px 10px 5px rgba(0, 0, 0, 0.514);
+}
+.r {
+/* background: black ;  */
+/*  �뒳�씪�씠�뱶 �쐞移� */
+padding-top: 2.7%;
+padding-bottom: 0.2%;
+padding-left: 3.25%;
+
+display:block;
+/* �겕湲곕낫湲� */
+/* border: 10px solid; */
+border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;    
+}
+.visual button {
+position: absolute; 
+z-index:1;
+top:55%; 
+transform:translateY(-100%);
+width: 30px;
+height: 30px;
+border-radius: 100%;
+background: rgba(0,0,0,.5);
+border:none;
+}
+/*혻�뒳由��뒳�씪�씠�뱶1 踰꾪듉 �꽭遺��쐞移섏� �냽�꽦   */
+.visual button:before { font-family: 'xeicon'; color: white; font-size: 15px;}
+.visual button.slick-prev { left:90px; font-size: 0; color: transparent;}
+.visual button.slick-prev:before { content:"\e93d";}
+.visual button.slick-next { right:90px; font-size: 0; color:transparent;}
+.visual button.slick-next:before { content:"\e940"; }
+
+.r img{
+border: 3x solid;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+/* box-shadow: 2px; */
+/* position: absolute; top: 100%; left: 100%; */
+}
+/* �뒳由��뒳�씪�씠�뱶1 �걹 */
+
+/* 援щ텇�옄 */
+.deco{
+border: .4px rgb(189, 189, 189) solid;
+position: relative;
+top:-16%;
+margin:50px;
+}
+
+/* �뒳�씪�씠�뱶2 */ 
+.slider{
+/* �씠誘몄� 媛��슫�뜲 �젙�젹 */
+text-align: center;
+display: inline-block;
+}
+
+.slider img{    
+/* �씠誘몄�媛� 媛꾧꺽 議곗젙  */
+padding-left: 1% ;
+padding-right: 1% ;
+top:30%;
+height: 200px;
+/* box-shadow:0px 0px 10px 5px rgba(0, 0, 0, 0.514); */
+
+
+/* �뒳�씪�씠�뱶2 留덉슦�뒪�슚怨� */
+-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+/* �뒳�씪�씠�뱶2 留덉슦�뒪 �샇踰꾪슚怨� */
+.slider img:hover{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+
+}
+.bx-wrapper{
+/* position: relative; */
+/* z-index: 1 !important; */
+position: absolute;
+width: 100%;
+/* �뒳�씪�씠�뜑2 �쐞移섍컪 */
+top:110%;
+}   
+/* �뒳�씪�씠�뱶 踰꾪듉 �룿�듃�궗�씠利� */
+.bx-controls-direction {
+/* 踰꾪듉�쐞移� */
+padding-top: .5%; 
+padding-bottom: 0.2%;
+padding-left: 4%;
+display:inline-block;
+
+/* �겕湲곕낫湲� */
+/* border: 10px solid;     */
+}
+.bx-controls-direction a{
+    position: absolute; 
+    top:50%; 
+    /* 踰꾪듉 �룞洹몃씪誘� �냽�꽦 */
+    /* transform:translateY(-50%);
+    width: 31px;
+    height: 31px;
+    border-radius: 100%;
+    background: rgba(0,0,0,.5);
+    border:none; */
+}
+.bx-controls-direction .bx-prev
+{
+/*踰꾪듉�쐞移� */
+left:95px; 
+font-size: 0; color: transparent;}
+.bx-controls-direction .bx-next{right:95px; font-size: 0px; color:transparent;}
+.bx-controls-direction .bx-prev:before {content:"\e93d";font-family: 'xeicon'; color: rgb(3, 3, 3); font-size: 20px;}
+.bx-controls-direction .bx-next:before { content:"\e940";font-family: 'xeicon'; color: rgb(2, 2, 2); font-size: 20px;}
+
+     
+     /* �뒳�씪�씠�뱶2 �븘�옒 踰꾪듉諛� */
+     .bx-pager{
+     position: absolute;
+     left: 0;
+     /* 踰꾪듉 �쐞移� */
+     bottom: 0px;
+     width: 100%;
+     text-align: center;
+     }
+     .bx-pager div{
+     display: inline-block;
+     /* 踰꾪듉媛꾧꺽 */
+     padding: 3px;
+     }
+     .bx-pager a{ 
+     display: block;  
+     font-size: 0;
+     width: 20px;
+     height: 3px;
+     background: rgb(179, 178, 178);
+     font-size: 0;
+     color: transparent;
+     }
+     .bx-pager div a.active{
+     background: #35256b;
+     }
+     /* �뒳�씪�씠�뱶2 �걹*/
+     
+     
+     .deco2{
+        border: .4px rgb(189, 189, 189) solid;
+        position: relative;
+        top:10%;
+        z-index: 1 !important;
+        margin:50px;
+        }
+
+
+
+.con_fig .con_event{
+/* color:#261049; */
+position: absolute;
+color:#6237a7;
+transform: translateX(-140%);
+display: block;
+}
+.con_fig .con_event span{
+    /* z-index: 1; */
+    /* display: block; */
+    width: 0px;
+    height: 100px;
+    border: 2px solid ;
+    color: #180a30;
+}
+
+        /*  */
+        .con_fig{
+padding-left: 210px;
+/* deco2���쓽 媛꾧꺽 */
+padding-top: 90px;
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+        figure.snip1283 {
+          font-family: 'Raleway', Arial, sans-serif;
+          color: #fff;
+          position: relative;
+          overflow: hidden;
+          float: left;
+          margin: 10px;
+          min-width:80px;
+          max-width: 195px;
+          max-height: 100px;
+          width: 100%;
+          color: #ffffff;
+          text-align: left;
+          background-color: #07090c;
+          font-size: 9px;
+          -webkit-perspective: 50em;
+          perspective: 50em;
+        
+       
+        }
+        figure.snip1283 * {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: all 0.6s ease;
+          transition: all 0.6s ease;
+        }
+        figure.snip1283 img {
+          opacity: 1;
+          width: 100%;
+          -webkit-transform-origin: 50% 0%;
+          -ms-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+        }
+        figure.snip1283 figcaption {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+          -webkit-transform-origin: 50% 100%;
+          -ms-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+          z-index: 1;
+          opacity: 0;
+          padding: 20px 30px;
+        }
+        figure.snip1283 h3,
+        figure.snip1283 p {
+          line-height: 1.2em;
+        }
+        figure.snip1283 h3 {
+          margin: 0;
+          font-weight: 200;
+          text-transform: uppercase;
+        }
+        figure.snip1283 p {
+          font-size: 0.5em;
+          font-weight: 500;
+          margin: 0 0 15px;
+        }
+        figure.snip1283 .read-more {
+          border: 2px solid #ffffff;
+          padding: 0.5em 1em;
+          font-size: 0.8em;
+          text-decoration: none;
+          color: #ffffff;
+          display: inline-block;
+        }
+        figure.snip1283 .read-more:hover {
+          background-color: #ffffff;
+          color: #000000;
+        }
+        figure.snip1283:hover img,
+        figure.snip1283.hover img {
+          -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+          opacity: 0;
+        }
+        figure.snip1283:hover figcaption,
+        figure.snip1283.hover figcaption {
+          -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+          opacity: 1;
+          -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+        }
+        /* �뭼�꽣 */
+.foot{
+    width:100%;
+    background-color: rgba(194, 194, 194, 0.24);
+    width:100%;
+    height: 100px;
+    padding-top: 1%;
+    left:0;
+    font-size: 7px;
+    
+    }
+    .foot a{
+    /* a留곹겕 諛묒쨪 �젣嫄� */
+    text-decoration: none;
+    }
+    .foot ul.nav-bottomfoot{
+    text-align: center;
+    line-height:50px;
+    color:rgb(255, 255, 255);
+    list-style: none;
+
+    }
+    
+    .foot ul li{
+    display: inline-block;
+    }
+    .foot ul li a{
+    /* line-height:15px; */
+    color:rgb(129, 129, 129);
+    padding:0 4px;
+    font-size: 10px;
+}
+    /* �뭼�꽣�븞�씤�룷硫붿씠�뀡 */
+    .foot #infoFoot{
+    color:rgb(129, 129, 129);
+    text-align: center;
+    }
+    .foot #infoFoot span{
+    padding: 0 10px;
+    }
+    .foot h3{
+    font-size: 20px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    }
+    div.end_foot{
+    /* z-index: 1; */
+    padding-top: .5%;
+    padding-bottom: .5%;
+    background-color: rgb(160, 160, 160);
+    color: rgba(212, 208, 208, 0.856);
+    text-align: center;
+    font-size:9px
+    }
+    /* �뭼�꽣�븞�씤�룷硫붿씠�뀡 �걹 */
+    /* �뭼�꽣�걹 */

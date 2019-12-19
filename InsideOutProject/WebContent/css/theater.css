@@ -1,0 +1,48 @@
+@charset "UTF-8";
+section{position:relative; top: 200px; min-height: 900px;}
+a{text-decoration: none; font-weight: bold; color: black; padding-right: 22px;}
+a:not(:last-of-type){border-right: 2px solid lightgray;}
+a:not(:first-of-type){padding-left:20px;}
+#bar{background:rgb(224, 224, 224); width:8px; height:40px; display:inline-block;}
+#title{display:inline-block;}
+#menu{text-align: center;}
+#btn-left{width:70px; height:70px;}
+#btn-right{width:50px; height:50px;}
+#date{font-weight: bold; font-size: 35px;}
+#btn-ratings{background:white; border: 0}
+#schedule{border-top: 1px solid black; border-bottom: 1px solid black; border-collapse: collapse; width:1000px; height:170px;}
+#movie-title, #movie-theater{border-right: 1px solid black; background: rgb(224, 224, 224); font-weight: bold;}
+#movie-title{padding-left:10px;}
+#movie-theater{text-align: right; margin-right:30px; padding-right:10px}
+#schedule td:not(#movie-title):not(#movie-theater){text-align: center;}
+p{display: inline;}
+#jojo{font-size: 13px}
+#time{font-size: 22px}
+#seat{font-size: 15px}
+#reservation{display:none; margin-top:-6px; margin-left: -1px; background:rgb(53, 37, 107); position: absolute; z-index: 10; width: 123px; height: 85px; color:white;}
+#reservation p{position: relative; top: 15px; font-weight: bold;}
+#reservation a{color: white; border: 2px solid white; padding: 3px; text-decoration: none; font-weight: bold; position:relative; top: 30px; border-radius: 5px 5px 5px 5px;}
+#schedule td:hover #reservation{display: block;}
+#img-ratingInfo{width:30px; height:30px;}
+#rating-title{margin:0; padding:0; border:0; background:rgb(38, 16, 73); height:50px; padding-left:10px;}
+#rating-title h2{color:white; position:relative; top:10px;}
+#movieRating{border: 1px solid black; border-collapse: collapse; margin:0 auto;}
+#movieRating th{background: rgb(224, 224, 224);}
+#movieRating th, td{border: 1px solid black}
+#movieRating td{padding-left: 10px;}
+#movieRating p{position:relative; left:-15px;}
+#img-ratings{width:35px; height:30px; position:relative; left:-7px;}
+#location{width:1000px; height:500px;}
+#map{position: relative; z-index:-100; float:left; width:400px;}
+#mapInfo{float:right; width:400px; height:500px;}
+#subwayInfo{width:400px; height:220px;}
+#line2{width:40px; height:40px;}
+#lineNew{width:55px; height:40px;}
+#bus{width:80px; height:80px; float:left;}
+#subway{width:70px; height:80px;}
+#busTitle, #subwayTitle{text-align: center; font-weight:bold;}
+#maptable td{border: white; padding-left:10px;}
+#maptable td:not(#first), td:not(#subwayInfo){height:40px;}
+#price{border: 1px solid black; border-collapse: collapse; padding-bottom: 10000px;}
+#price th{background:rgb(224, 224, 224);}
+#price th, #price td{border: 1px solid black; text-align: center; width: 200px; height: 40px;}

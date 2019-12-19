@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* common */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display: block;
+}
+dl, ol, ul {
+    list-style: none;
+}
+
+/* container 부분 */
+#container {
+    background-color: violet;
+    width: 1000px;
+    margin: auto;
+}
+#container #ticketing {
+    background-color: #F2F0E4;
+    width: 727px;
+    height: 600px;
+    margin: auto;
+}
+.section {
+    position: relative;
+    height: 593px;
+    float: left;
+}
+.section.section-movie {
+    width: 284px;
+    border-right: 3px solid #d4d3c9;
+}
+.section.section-date {
+    width: 91px;
+    border-right: 3px solid#d4d3c9;
+}
+.section.section-time {
+    width: 346px;
+}
+.col-head {
+    background-color: black;
+    color: #d4d3c9;
+    text-align: center;
+    height: 33px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.col-body .sortmenu a {
+    display: inline;
+    color: black;
+    font-size: 13px;
+}
+.col-body .movie-list {
+    width: 280px;
+    height: 530px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.col-body .movie-list ul {
+    /* position: absolute; */
+    width: 270px;
+}
+.col-body .movie-list ul li {
+    height: 33px;
+    line-height: 33px;
+    border: 1px none #000;
+    clear: both;
+}
+.col-body .movie-list ul li a {
+    /* vertical-align: middle; */
+    border: 1px none #000;
+    line-height: 29px;
+    margin: 1px;
+    display: block;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+/* .col-body .movie-list ul li a:focus {
+    background: #333333;
+    color: #d4d3c9;
+} */
+.col-body ul li.month div span.year {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 11px;
+}
+.col-body ul li.month div span.month {
+    margin-top: 3px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.col-body ul li.day {
+    position: relative;
+    clear: both;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    width: 60px;
+}
+.col-body ul li.day a {
+    margin-left: 10px;
+    height: 100%;
+    vertical-align: middle;
+    padding-left: 8px;
+    padding-right: 7px;
+}
+.col-body ul li.day a span.dayweek {
+    float: left;
+    font-size: 12px;
+    color: #333;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.col-body ul li.day a span.day {
+    float: right;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.col-body ul li.day.day-sat a span {
+    color: #31597e;
+}
+.col-body ul li.day.day-sun a span {
+    color: #ad2727;
+}
+/* .col-body ul li.day a:focus {
+    background: #333333;
+    color: #d4d3c9;
+} */
